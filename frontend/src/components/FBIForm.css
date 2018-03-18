@@ -1,0 +1,16 @@
+.FBIForm {
+  margin: 2rem 0;
+}
+
+.FBIForm > form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.FBIForm > form > input,
+.FBIForm > form > button {
+  font-size: 16px;
+  margin-top: 0.5rem;
+}
